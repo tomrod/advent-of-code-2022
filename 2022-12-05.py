@@ -57,6 +57,6 @@ def part(crane_type):
         construct_operation = construct_update(m, construct_operation[:], crane_type)
     return construct_last(construct_operation)
 
-print('part1: ', construct_last(part(9000)))
-print('part2: ', construct_last(part(9001)))
+print('part1: ', part(9000))
+print('part2: ', part(9001))
     
